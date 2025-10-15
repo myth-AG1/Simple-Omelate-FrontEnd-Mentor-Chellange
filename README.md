@@ -100,7 +100,7 @@ This project helps practice:
 
 ## 🏆 Credits
 
-Challenge by [Frontend Mentor](https://www.frontendmentor.io?ref=challenge)
+Challenge by [Frontend Mentor](https://www.frontendmentor.io?ref=challenge) <br>
 Coded by [Myth](https://github.com/myth-AG1)
 
 <p align="center"> <b>𝓜𝔂𝓽𝓱 💻</b> </p> 
