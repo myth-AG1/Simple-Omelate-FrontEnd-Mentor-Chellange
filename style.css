@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Young Serif', serif;
+  background-color: #F9EBEA;
+  color: #333333;
+  line-height: 1.6;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.recipe-card {
+  background: white;
+  max-width: 800px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 100%;
+}
+
+.recipe-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.recipe-title {
+  font-family: 'Outfit', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.recipe-description {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-family: 'Young Serif', serif;
+}
+
+.prep-section,
+.ingredients-section,
+.nutrition-section {
+  background-color: #F9EBEA;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.instructions-section {
+  margin-bottom: 1.5rem;
+}
+
+.section-title {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #000000;
+}
+
+.time-list,
+.ingredients-list,
+.instructions-list {
+  padding-left: 1.5rem;
+  margin: 0;
+  list-style-position: outside;
+}
+
+.time-list li,
+.ingredients-list li,
+.instructions-list li {
+  margin-bottom: 0.5rem;
+  font-family: 'Young Serif', serif;
+}
+
+.nutrition-note {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  color: #666666;
+  font-style: italic;
+  font-family: 'Young Serif', serif;
+}
+
+.nutrition-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Young Serif', serif;
+  font-size: 1rem;
+}
+
+.nutrition-table th {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  padding: 0.5rem 0;
+  text-align: left;
+  width: 50%;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.nutrition-table th:nth-child(2) {
+  text-align: right;
+}
+
+.attribution {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666666;
+  margin-top: 2rem;
+  font-family: 'Young Serif', serif;
+}
+
+.attribution a {
+  color: #333333;
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+
+  .recipe-card {
+    padding: 1.5rem;
+    border-radius: 12px;
+  }
+
+  .recipe-title {
+    font-size: 2rem;
+  }
+
+  .section-title {
+    font-size: 1.3rem;
+  }
+
+  .recipe-description {
+    font-size: 1rem;
+  }
+}
